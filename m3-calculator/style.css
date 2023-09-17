@@ -16,3 +16,72 @@ textarea,
 button {
     outline: none;
 }
+
+/* ==================== MAIN ===================== */
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+/* CONTAINER */
+.container {
+    border-radius: 1.5rem;
+    border: 1px solid rgb(203 213 225);
+    padding: 2.5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* CONTENT */
+h1 {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    margin-bottom: 1rem;
+    border: 1px solid rgb(203 213 225);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    border: 1px solid rgb(153, 153, 153);
+    background-color: rgb(245, 245, 245);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.05) 40%,
+        rgba(0, 0, 0, 0.1)
+    );
+}
+
+table {
+    border-collapse: collapse;
+    margin-inline: auto;
+}
+
+td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgb(203 213 225);
+}
