@@ -18,11 +18,12 @@
       <form>
         <textarea autofocus aria-label="Enter your Number List, separate each number with a comma (,)"
           placeholder="Enter your Number List, separate each number with a comma (,)" cols="30" rows="5"></textarea>
-        <button type="submit" class="button">Calculate</button>
-        <button type="reset" class="button">Reset</button>
+        <div class="buttons">
+          <button type="reset" class="button">Reset</button>
+          <button type="submit" class="button">Calculate</button>
+        </div>
       </form>
-      <div class="result">
-        <p>Result :</p>
+      <div id="result">
         <table>
           <tr>
             <td>
