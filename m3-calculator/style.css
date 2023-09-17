@@ -14,7 +14,7 @@ body {
 
 /* ==================== REUSABLE CLASS ===================== */
 .d-block {
-    display: block;
+    display: block !important;
 }
 
 /* ==================== MAIN ===================== */
