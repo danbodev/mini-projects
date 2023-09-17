@@ -12,11 +12,6 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-textarea,
-button {
-    outline: none;
-}
-
 /* ==================== MAIN ===================== */
 main {
     display: grid;
