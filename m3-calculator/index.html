@@ -15,9 +15,10 @@
   <main>
     <div class="container">
       <h1 class="title">Mean | Median | Mode <br> Calculator</h1>
-      <form>
+      <form id="form">
         <textarea autofocus aria-label="Enter your Number List, separate each number with a comma (,)"
-          placeholder="Enter your Number List, separate each number with a comma (,)" cols="30" rows="5"></textarea>
+          placeholder="Enter your Number List, separate each number with a comma (,)" cols="30" rows="5"
+          id="textarea"></textarea>
         <div class="buttons">
           <button type="reset" class="button">Reset</button>
           <button type="submit" class="button">Calculate</button>
@@ -29,7 +30,7 @@
             <td>
               <b>Mean</b>
             </td>
-            <td>
+            <td id="mean">
               0
             </td>
           </tr>
@@ -37,7 +38,7 @@
             <td>
               <b>Median</b>
             </td>
-            <td>
+            <td id="median">
               0
             </td>
           </tr>
@@ -45,7 +46,7 @@
             <td>
               <b>Mode</b>
             </td>
-            <td>
+            <td id="mode">
               0
             </td>
           </tr>
